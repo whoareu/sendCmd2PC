@@ -19,8 +19,6 @@ func main(){
 	sendArduinoCommand('a', 3.0, s)
 	time.Sleep(5 * time.Second)
 	sendArduinoCommand('a', 5.0, s)
-
-
 }
 
 
