@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "wIMNNn2XK/FlmBgrGDpLyfeToHs=",
+			"path": "github.com/huin/goserial",
+			"revision": "7b90efdb22b1c168a57b998b2780cf541b2c4740",
+			"revisionTime": "2012-10-12T07:36:15Z"
+		}
+	],
+	"rootPath": "sendCmd2PC"
+}
