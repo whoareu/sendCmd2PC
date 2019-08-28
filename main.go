@@ -7,6 +7,7 @@ import (
 	"encoding/binary"
 	"io"
 	"bytes"
+	"github.com/go-vgo/robotgo"
 )
 
 func main(){
@@ -27,7 +28,7 @@ func findArduino() string {
 	for _, f := range contents {
 		if strings.Contains(f.Name(), "tty.usbserial") ||
 		strings.Contains(f.Name(), "ttyUSB") ||
-		strings.Contains(f.Name(), "ttyACM") {
+		strings.Contains(f.Name(), "ttyACM") /*for ubuntu*/{
 			return "/dev/" + f.Name()
 		}
 	}

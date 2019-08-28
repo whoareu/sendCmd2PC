@@ -1,0 +1,24 @@
+# Prepare env
+
+# For robotgo repo
+url : https://github.com/go-vgo/robotgo/blob/master/README_zh.md
+# For Mac OS X:
+Xcode Command Line Tools
+
+# For Windows:
+MinGW-w64 (推荐使用) or other GCC
+
+# For everything else (Linux 等其他系统):
+GCC, libpng
+X11 with the XTest extension (also known as the Xtst library)
+事件:
+xcb, xkb, libxkbcommon
+
+# Ubuntu:
+sudo apt-get install gcc libc6-dev
+sudo apt-get install libx11-dev xorg-dev libxtst-dev libpng++-dev
+sudo apt-get install xcb libxcb-xkb-dev x11-xkb-utils libx11-xcb-dev libxkbcommon-x11-dev
+sudo apt-get install libxkbcommon-dev
+sudo apt-get install xsel xclip
+
+
